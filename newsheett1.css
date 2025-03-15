@@ -1,7 +1,12 @@
 body {
     margin: 0;
-    padding: 20px;
+    padding: ;
     background-color: #f4f4f4;
+}
+@media (max-width: 768px) {
+  .container-fluid.template {
+    height: auto;
+  }
 }
 
 .container-fluid.template {
